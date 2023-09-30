@@ -7,15 +7,25 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Spring-Boot-JWT" />
+<<<<<<< HEAD
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Spring-Boot-JWT" target="17" />
     </bytecodeTargetLevel>
+=======
+        <module name="SpringBootJwt" />
+      </profile>
+    </annotationProcessing>
+>>>>>>> origin/main
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring-Boot-JWT" options="-parameters" />
+<<<<<<< HEAD
+=======
+      <module name="SpringBootJwt" options="-parameters" />
+>>>>>>> origin/main
     </option>
   </component>
 </project>

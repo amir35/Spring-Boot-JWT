@@ -37,6 +37,7 @@ public class MySecurityConfig  extends WebSecurityConfigurerAdapter{
 			.authorizeRequests()
 			// dont authenticate this particular request
 			.antMatchers("/token").permitAll()
+				.antMatchers("/employee/addUser").permitAll()
 			.anyRequest().authenticated()
 			.and()
 			// make sure we use stateless session; session won't be used to store user's state.
